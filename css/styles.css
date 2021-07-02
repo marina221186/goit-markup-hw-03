@@ -112,8 +112,8 @@ body {
 .menu-address {
   display: flex;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px;*/
 }
 .menu-info-type:not(:last-child) {
   margin-right: 50px;
@@ -238,13 +238,13 @@ body {
 /*Наша команда*/
 .our-team {
   background-color: #f5f4fa;
-  margin-bottom: 29px;
+  /* margin-bottom: 29px;*/
   padding-top: 94px;
-  /* padding-bottom: 94px;*/
+  padding-bottom: 94px;
 }
 .team-person {
   display: flex;
-  padding-bottom: 90px;
+  /*padding-bottom: 90px;*/
 }
 .team-item {
   background-color: #ffffff;
@@ -302,8 +302,9 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--accent-color);
-  padding-top: 60px;
+  /* padding-top: 60px;*/
   margin-bottom: 20px;
+  display: block;
 }
 .navigation-type-address + .navigation-type-address {
   margin-top: 9px;
@@ -325,6 +326,11 @@ body {
 }
 /*===========Portfolio===========*/
 /*button filters*/
+.btm{
+  display: flex;
+  padding-top: 24px ;
+  padding-bottom: 40px ;
+}
 .all-section {
   padding-top: 86px;
   padding-bottom: 94px;
@@ -337,12 +343,12 @@ body {
   display: block;
   align-items: center;
 }
-.navigation-type {
+/*.navigation-type {
   padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 60px;*/
 }
 .menu-left {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   padding-top: 24px;
   padding-bottom: 40px;
@@ -356,7 +362,7 @@ body {
 .filters {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-type:not(:last-child) {
   margin-right: 8px;
